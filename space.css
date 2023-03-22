@@ -1,0 +1,29 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background:url("back.png") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(2, 1, 1, 0.5)),
+                  url("back.png");
+
+background-image: linear-gradient(rgba(51, 50, 50, 0.5), rgba(47, 46, 46, 0.5)),
+                  url("https://wallpaperaccess.com/full/157059.jpg");
+                  
+
+    color:white;
+    
+    
+}
+#board{
+    background-color: rgb(0, 0, 0);
+}
+h1{
+
+    font-size: 5rem;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#Sc,#Hs,#cb{
+    
+    font-size: 2rem;
+    font-weight: bolder;
+}
