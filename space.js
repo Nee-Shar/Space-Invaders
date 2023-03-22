@@ -111,6 +111,7 @@ requestAnimationFrame(update);
 document.addEventListener("keydown",moveShip);
 
 document.addEventListener("keyup",shoot);//key is released 
+document.addEventListener("click",shoot);//key is released 
 
 
 });
@@ -274,7 +275,7 @@ if(gameOver) {
 
     return;}
 
-    if(e.code=="Space" || e.code=="Enter"){
+    if(e.code=="Space" || e.code=="Enter" || e.type=="click"){
         //shoot
         let bullet={
             x:ship.x+shipWidth*15/32,
